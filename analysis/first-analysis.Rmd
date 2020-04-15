@@ -1,0 +1,18 @@
+---
+title: "first-analysis"
+author: "yfei"
+date: "2020-04-15"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+library(tidyverse)
+ggplot(data = mtcars, aes(x= disp, y = mpg)) +
+  geom_point()
+
+```
+
